@@ -1,0 +1,1018 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "D0tol-1.20.1",
+      "name": "D0tol (Minecraft 1.20.1)",
+      "description": "D0tol Running Minecraft 1.20.1 (Forge v47.4.0)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "213.35.119.191:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7399,
+            "MD5": "a839d5603a05491f84f6c36284ab0ea8",
+            "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16612,
+                "MD5": "029daa8b97e10cedd4d6726a563379ab",
+                "url": "https://yoonje01.github.io/FTP/repo/versions/1.20.1-forge-47.4.0/1.20.1-forge-47.4.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118914,
+                "MD5": "bc798cdec9ec7eeb3354b550d5e67652",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16855,
+                "MD5": "10ca1edc0a62ea799c4327bfc44e5ad6",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4998,
+                "MD5": "cd3d6af64b394583aa83090915469f9e",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2776081,
+                "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4826828,
+                "MD5": "1940b09c4b066287963bde17aa375cec",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "5b26aba9f44796d54094022c1e73a49e",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170517,
+                "MD5": "68747d96f635b0a0dc9e070d3596a562",
+                "url": "https://yoonje01.github.io/FTP/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.ncpbails:alexsdelight:1.5@jar",
+          "name": "Alex's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55398,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/alexsdelight-1.5.jar",
+            "MD5": "b969e136e1f9a70c42dd102ed8359b40"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.22.9@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26350793,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/alexsmobs-1.22.9.jar",
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:2.5.5@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 601173,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/Aquaculture-1.20.1-2.5.5.jar",
+            "MD5": "515dde53d77858310af77cd93a5d1316"
+          }
+        },
+        {
+          "id": "net.mcreator:aquaculturedelight:1.1.1@jar",
+          "name": "Aquaculture Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 225149,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/aquaculturedelight-1.1.1-forge-1.20.1.jar",
+            "MD5": "e1aa5ae3c8f5ceafbda9298804d9daaf"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "artifacts:artifacts:9.5.16@jar",
+          "name": "Artifacts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 850457,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/artifacts-forge-9.5.16.jar",
+            "MD5": "85081468e7498005f5dfdab2ae520097"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.3.27@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 475315,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.27-all.jar",
+            "MD5": "f602ed9d2c722942623165fec6eb538f"
+          }
+        },
+        {
+          "id": "com.betterfpsdist:betterfpsdist:1.20.1-6.0@jar",
+          "name": "Betterfpsdist mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19917,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/betterfpsdist-1.20.1-6.0.jar",
+            "MD5": "34280e25bfb67f8ce08157129c8cb09d"
+          }
+        },
+        {
+          "id": "biomesoplenty.forge.core:biomesoplenty:19.0.0.96@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22381010,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+            "MD5": "886b3d33f1e7dca2a937ec5c5dc19af8"
+          }
+        },
+        {
+          "id": "umpaz.brewinandchewin:brewinandchewin:1.20.1-3.2.1@jar",
+          "name": "Brewin' And Chewin'",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1206255,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/BrewinAndChewin-1.20.1-3.2.1.jar",
+            "MD5": "a9764338cbfe60d1e67c578b246c79ba"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:2.1.2.7@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 439457,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/carryon-forge-1.20.1-2.1.2.7.jar",
+            "MD5": "8956b37c2ae11cc5522c8404a262c6b7"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre36@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2613393,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/cfm-forge-1.20.1-7.0.0-pre36.jar",
+            "MD5": "faf78627dad9c9c04e7a4fa8992c54dc"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.6.1@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3173637,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/citadel-2.6.1-1.20.1.jar",
+            "MD5": "d7c8be4b34cfd4db20ad1747b122d07c"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.20.1-1.0.20@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 244994,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.20.jar",
+            "MD5": "143d3e76139de3b9186849f494a41af6"
+          }
+        },
+        {
+          "id": "plus.dragons.createcentralkitchen:create_central_kitchen:1.4.0.d@jar",
+          "name": "Create: Central Kitchen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 977134,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/create_central_kitchen-1.20.1-for-create-6.0.4-1.4.0.d.jar",
+            "MD5": "f6b75186beb3519bfa510b888c95ecaf"
+          }
+        },
+        {
+          "id": "plus.dragons.createenchantmentindustry:create_enchantment_industry:1.3.2-for-create-6.0.4@jar",
+          "name": "Create Enchantment Industry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 487764,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/create_enchantment_industry-1.3.2-for-create-6.0.4.jar",
+            "MD5": "5bca43ed77ac0266bef81bd10bed8204"
+          }
+        },
+        {
+          "id": "com.possible_triangle:create_jetpack:4.4.0@jar",
+          "name": "Create Jetpack",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227329,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/create_jetpack-forge-4.4.0.jar",
+            "MD5": "478101ad49cbafed2e9ea6b09207a01f"
+          }
+        },
+        {
+          "id": "net.stalosir.createkart:create_kart:2.3.0@jar",
+          "name": "Create Kart",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1996995,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/create_kart-2.3.0-forge-1.20.1.jar",
+            "MD5": "88b9f60a54182e9d3d025b1aa011744b"
+          }
+        },
+        {
+          "id": "net.mcreator.createcrusheverything:create_crush_everything:1.0.2@jar",
+          "name": "Create Recycling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 89302,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/create_recycle_1.0.2_forge_1.20.1.jar",
+            "MD5": "25e705250b3608f42c1a5bc3e08b798a"
+          }
+        },
+        {
+          "id": "com.simibubi:create:6.0.4@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18463134,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/create-1.20.1-6.0.4.jar",
+            "MD5": "9d274d57a664ae35e6efbef8595bcc29"
+          }
+        },
+        {
+          "id": "com.mrh0:createaddition:1.20.1-1.3.1@jar",
+          "name": "Create Crafts & Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1547196,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/createaddition-1.20.1-1.3.1.jar",
+            "MD5": "0abfc0f6db9558cba6eaee44266a4447"
+          }
+        },
+        {
+          "id": "net.createarmory:createarmory:0.5@jar",
+          "name": "CreateArmory",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1059027,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/createarmoryv0.6.1n.jar",
+            "MD5": "5d4e1a87b2abc3f3b53b1f9afc2cfffd"
+          }
+        },
+        {
+          "id": "com.github.eterdelta:crittersandcompanions:2.2.2@jar",
+          "name": "Critters and Companions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1314349,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/crittersandcompanions-forge-2.2.2.jar",
+            "MD5": "cf742406aa026278017709ec941cc093"
+          }
+        },
+        {
+          "id": "com.baisylia:culturaldelights:0.16.3@jar",
+          "name": "Cultural Delights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 242880,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/culturaldelights-0.16.3.jar",
+            "MD5": "9dbeec41de2e59445f347e92e6de0d5d"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-2.7@jar",
+          "name": "Cupboard utilities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25983,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/cupboard-1.20.1-2.7.jar",
+            "MD5": "3620912474f47bf58d1fe5bfe133763a"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          }
+        },
+        {
+          "id": "com.sudolev:dynamicvillage:0.4@jar",
+          "name": "Create: Dynamic Village",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 202805,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/dynamicvillage-v0.4-1.20.1.jar",
+            "MD5": "32b1487de70a8e0d09e65627958be9c9"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.7.4@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 75290,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/entityculling-forge-1.7.4-mc1.20.1.jar",
+            "MD5": "a6bc8ba692b23fac2aa0e6d3afad47cf"
+          }
+        },
+        {
+          "id": "fr.rakambda:fallingtree:4.3.4@jar",
+          "name": "FallingTree",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 420179,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/FallingTree-1.20.1-4.3.4.jar",
+            "MD5": "e9282de446320895a7835ce9efc6d3b7"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.7@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2954263,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.7.jar",
+            "MD5": "a91b9909757a8fa36303eef730033c7b"
+          }
+        },
+        {
+          "id": "io.github.bumblesoftware.fastload.init:fastload:3.4.0@jar",
+          "name": "Fastload-Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 66989,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/Fastload-Reforged-mc1.20.1-3.4.0.jar",
+            "MD5": "3266e638032dc9b957bf1e7372671c05"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:fastsuite:5.1.0@jar",
+          "name": "Fast Suite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25305,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/FastSuite-1.20.1-5.1.0.jar",
+            "MD5": "5308931eb0df44e4f39c06a7696f42ce"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.7.1.2@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1012500,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.7.1.2.jar",
+            "MD5": "cd951c81b5551b8a3f215a825d2934fa"
+          }
+        },
+        {
+          "id": "glitchcore:glitchcore:0.0.1.1@jar",
+          "name": "GlitchCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 87550,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+            "MD5": "6d24b09db12acdab40437a1929259352"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.12.3+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 547769,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.12.3.jar",
+            "MD5": "253456fec5b1bd598a7abc12abfee0f5"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.106@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1379220,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.106.jar",
+            "MD5": "245af433575aef3a47ae73492196018f"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.11.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7193768,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/kotlinforforge-4.11.0-all.jar",
+            "MD5": "417caa90d17dc86cf7d24b802c2a5c56"
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:2.64@jar",
+          "name": "Cataclysm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 72161224,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/L_Enders_Cataclysm-2.64.jar",
+            "MD5": "753b6f308d1d733bb520f3695dd885b0"
+          }
+        },
+        {
+          "id": "net.anotherproject:lendersdelight:1.0.6-1.20.1@jar",
+          "name": "L_Ender 's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96220,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/lendersdelight-1.0.6-1.20.1.jar",
+            "MD5": "74872f7cac2b6318a878c9bb1a44f73e"
+          }
+        },
+        {
+          "id": "com.github.l_ender:lionfishapi:2.4-Fix@jar",
+          "name": "LionfishAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 162767,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/lionfishapi-2.4-Fix.jar",
+            "MD5": "81efd7c198c3c7036c77c79cae764ed4"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227925,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/memoryleakfix-forge-1.17+-1.1.5.jar",
+            "MD5": "5dd9149414ca375ceab146242c6e84ab"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.21.0+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 824640,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/modernfix-forge-5.21.0+mc1.20.1.jar",
+            "MD5": "3231eb6ba18ea27d8dd3a66fc4fc952e"
+          }
+        },
+        {
+          "id": "com.starfish_studios:naturalist:5.0pre2@jar",
+          "name": "Naturalist",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3793857,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/naturalist-5.0pre2+forge-1.20.1.jar",
+            "MD5": "213db37a474642aaa1693bbfb5c574e8"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.15a@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2806358,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/oculus-mc1.20.1-1.6.15a.jar",
+            "MD5": "b6d1e02b5fccf72570fa19606006d711"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:placebo:8.6.3@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 282474,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
+            "MD5": "13133ab9989e8474931cd7a86bd19cc5"
+          }
+        },
+        {
+          "id": "com.abdelaziz:saturn:0.1.3@jar",
+          "name": "Saturn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 92319,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/saturn-mc1.20.1-0.1.3.jar",
+            "MD5": "56a9a1cc126425b04acc5f8bd7ed67f1"
+          }
+        },
+        {
+          "id": "com.possible_triangle:sliceanddice:3.4.0@jar",
+          "name": "Create Slice & Dice",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1032971,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/sliceanddice-forge-3.4.0.jar",
+            "MD5": "2b17c8e6a214b845c2ab68525857d624"
+          }
+        },
+        {
+          "id": "com.abdelaziz:smoothboot:0.0.4@jar",
+          "name": "Smooth Boot (Reloaded)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41044,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+            "MD5": "c8cd5ae14d99796fd92c95a353e96211"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.23.10.1220@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 898286,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.23.10.1220.jar",
+            "MD5": "39bf0dd4036659f61d0da0900f997dd1"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.2.42.946@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1195526,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.2.42.946.jar",
+            "MD5": "68e8189371e03d8c5d9070c864e25b2e"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.10@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 107532,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/TerraBlender-forge-1.20.1-3.0.1.10.jar",
+            "MD5": "9d8e305b95ae5a8f7b446d6346324267"
+          }
+        },
+        {
+          "id": "net.blay09.mods:trashslot:15.1.2@jar",
+          "name": "TrashSlot",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 117791,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/trashslot-forge-1.20-15.1.2.jar",
+            "MD5": "e1df6b412a4c22894967ba42beb347be"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.5.26@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7729085,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.26.jar",
+            "MD5": "e8f40809f3ba23a568cf6a51bc4abf5d"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.2.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1704129,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/Xaeros_Minimap_25.2.0_Forge_1.20.jar",
+            "MD5": "e606d37df7888b3b4806712ec6095a82"
+          }
+        },
+        {
+          "id": "xerca.xercamusic:xercamusic:1.20.1-1.0.2@jar",
+          "name": "Music Maker Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7714018,
+            "url": "https://yoonje01.github.io/FTP/servers/D0tol-1.20.1/forgemods/required/xercamusic-1.20.1-1.0.2.jar",
+            "MD5": "f2ceede066ca6371cb44f61206dc1904"
+          }
+        }
+      ]
+    }
+  ]
+}
